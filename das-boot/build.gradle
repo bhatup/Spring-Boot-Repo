@@ -13,7 +13,11 @@ buildscript {
 apply plugin: 'java'
 apply plugin: 'eclipse-wtp'
 apply plugin: 'spring-boot'
+apply plugin: 'application'
 apply plugin: 'war'
+
+
+mainClassName = "com.boot.DasBootApplication"
 
 
 war {
